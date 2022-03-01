@@ -1,0 +1,191 @@
+footer {
+    width: 100%;
+}
+header.header.clear.show-movil.show-tablet {
+	width: 100%;
+	float: left;
+    color: #fff!important;
+    background: #14d66f;
+    background: -webkit-linear-gradient(bottom right,#14d66f,#39bee3);
+    background: -o-linear-gradient(bottom right,#14d66f,#39bee3);
+    background: -moz-linear-gradient(bottom right,#14d66f,#39bee3);
+    background: linear-gradient(to bottom right,#14d66f,#39bee3);
+
+}
+.menu-click-open {
+   top: 40px;
+}
+.body{
+    padding: 0;
+    margin-top: 80px;
+}
+.notification-bar{
+	position: fixed;
+    z-index: 2;
+}   
+.notification-bar span {
+    background-color: #000;
+    color: #fff;
+}
+.info-producto{
+	margin-top: 26px;
+	min-height: 500px;
+	padding: 50px;
+}
+.separador{
+	height: 2px;
+	width: 100%;
+	background-color: #eee;
+}
+.producto-variantecontorno-Size, .producto-variantecontorno-Color{
+	border: 1px solid #bbb;
+	width: 25px;
+	height: 25px;
+	float: left;
+    margin: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.producto-variantecontorno-Color{
+	border-radius: 50%;
+}
+.producto-variantecontorno-Size{
+	font-size: 0.7em;
+    text-align: center;
+    width: 30px;
+}
+.producto-variantecontorno-Color.selected, .producto-variantecontorno-Size.selected{
+	border: 1px solid #000;
+	color: #000;
+}
+.producto-variante{
+    width: 100%;
+    height: 100%;
+	border-radius: 50%;
+}
+.col.producto-varianteName {
+    margin-right: 10px;
+	line-height: 34px;
+}
+.col-12.producto-nombre,.producto-precioventa {
+    color: #000;
+    font-size: 34px;
+    font-weight: 600;
+}
+.producto-precioventa{
+	font-size: 28px;
+}
+.producto-preciocomparacion{
+	line-height: 50px;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.producto-variantes{
+	margin-right: 0px;
+}
+.producto-variantes > .row{
+	padding: 8px 0;
+}
+.input-group {
+    width: 105px;
+}
+.producto-addfavorito{
+	background-color: #eee;
+	color: #000;
+	font-weight: bold;
+	border: none;
+}
+.producto-addcart{
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	box-shadow: none;
+}
+/**/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top: 20px;
+    margin-left: 0;
+    min-height: 220px;
+}
+
+#custCarousel .carousel-indicators>li {
+    width: 150px;
+}
+
+#custCarousel .carousel-indicators li img {
+    display: block;
+}
+/**/
+.modal-body .producto-nombre{
+	color: #33dd82!important;
+}
+.modal-body .producto-precioventa{
+	font-size: 16px;
+}
+/**/
+.text-favorito{
+	color: #33dd82!important;
+	font-weight: 600;
+    margin: -20px 0 15px 0;
+}
+.textBold{
+	color: #000;
+	font-weight: 600;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.info-producto{
+		margin-top: 26px;
+		min-height: 300px;
+		padding: 15px 0;
+	}
+	.info-producto > div{
+		padding: 0;
+	}
+	.info-producto.d-flex, .botones.d-flex {
+	    display: block!important;
+	}
+	#custCarousel .carousel-indicators {
+	    min-height: 100px;
+	}
+	.row.d-flex.producto-varianteValues-Size{
+		margin: 0 15px;
+	}
+	.producto-cantidad{
+		padding: 0;
+	}
+	.col-7.col-md-6.producto-totalprice.d-flex{
+		padding: 0;
+    	text-align: right;
+	}
+	button.producto-addfavorito, button.producto-addcart {
+	    margin: 15px 0px 15px 15px !important;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
